@@ -1,0 +1,15 @@
+h1{
+    color: red;
+}
+.div{
+    background-color: blue;
+    height: 50px;
+}
+.div2{
+    background-color: rgb(0, 255, 68);
+    height: 50px;
+}
+.div3{
+    background-color: rgb(255, 85, 0);
+    height: 50px;
+}

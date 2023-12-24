@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style2.css" rel="stylesheet">
+</head>
+
+<body>
+    <form action="">
+        <div class="formheading">
+            <h2 id="haed" class="demo" style="color: blue;">Novell Services Login</h2>
+        </div>
+        <span><label for="username">Username : </label> <input type="text" id="username" class="username"
+                placeholder="Enter Username" required></span>
+        <span>
+            <label for="password"> Password:</label> <input type="password" name="password" id="password"
+                placeholder="Enter Password" required>
+        </span>
+
+        <span><label for="Employment">City of Employment : </label> <input type="text" id="Employment" class="Employment"
+            placeholder="" required></span>
+
+            <span>
+                <label for="server"> Web server : </label>
+                <select name="" id="server">
+                    <option value="" selected disabled> -- Choose a server -- </option>
+                    <option value="Aws">Aws</option>
+                    <option value="Microsoft IIS.">Microsoft IIS</option>
+                    <option value="Apache">Apache</option>
+                    <option value=" Lighttpd"> Lighttpd</option>
+                    <option value="Tomcat">Tomcat</option>
+                </select>
+            </span>
+
+        <span> Please specify your role : </span>
+        <span class="gender">
+            <span><input type="radio" name="role" value="Admin" id="Admin"><label for="Admin">Admin</label></span>
+            <span><input type="radio" name="role" value="Engineer" id="Engineer"><label for="Engineer">Engineer</label></span>
+            <span><input type="radio" name="role" value="Manager" id="Manager"> <label for="Manager">Manager</label></span>
+            <span><input type="radio" name="role" value="Guest" id="Guest"> <label for="Guest">Guest</label></span>
+            
+        </span>
+
+        <span>
+            Single Sign-on to the following :
+        </span>
+
+        <span class="hobby">
+
+            <span><input type="checkbox" name="Hobbies" id="Mail" value="Mail"><label
+                    for="Mail">Mail</label> </span>
+            <span> <input type="checkbox" name="Hobbies" id="Payroll" value="Payroll"><label
+                    for="Payroll">Payroll</label></span>
+            <span><input type="checkbox" name="Hobbies" id=">Self-service" value=">Self-service"><label
+                    for=">Self-service">Self-service</label></span>
+            
+
+        </span>
+
+        
+        
+
+
+
+
+        <div class="button">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+
+
+
+
+    </form>
+</body>
+
+</html>
