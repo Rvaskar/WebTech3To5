@@ -1,0 +1,77 @@
+h1 {
+  color: yellow;
+}
+pre {
+  background-color: rgb(35, 255, 35);
+  color: blue;
+  animation: tiger 10s 3s 20;
+  -webkit-animation: tiger 10s 3s 20;
+}
+h1,
+h2,
+h3,
+h4 {
+  /*grouping selectors*/
+  background-color: rgba(72, 221, 226, 0.63);
+}
+h1:nth-child(3) {
+  color: green;
+}
+.abc {
+    font-size: 20px;
+    font-family: cursive;
+  /* animation: tiger 10s 3s 20; */
+  /* -webkit-animation: tiger 10s 3s 20; */
+}
+@keyframes tiger {
+  0% {
+    background-color: rgb(128, 122, 0);
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: rgb(0, 19, 128);
+  }
+}
+.xyz{
+    color: hotpink;
+    /* animation: monkey 10s 3s 20;
+    -webkit-animation: monkey 10s 3s 20; */
+}
+@keyframes monkey {
+    0% {
+      font-size: large;
+    }
+    25% {
+        font-size: small;
+
+    }
+    50% {
+        font-size: medium;
+    }
+    75% {
+        font-size: x-large;
+    }
+    100% {
+        font-size: xx-small;
+    }
+    /* 0% {
+      rotate: 0deg;
+    }
+    25% {
+      rotate: 90deg;
+    }
+    50% {
+        rotate: 180deg;
+    }
+    75% {
+        rotate: 270deg;
+    }
+    100% {
+        rotate: 360deg;
+    } */
+}
+#three{
+    font-style: italic;
+}
