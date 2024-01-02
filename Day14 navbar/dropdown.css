@@ -1,0 +1,43 @@
+h1{
+    font-size: 100px;
+    width: 800px;
+    background: linear-gradient(to right, red , blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: changeCol 2s infinite alternate;
+    text-shadow: 0px 0px 60px rgba(255, 0, 0, 0.627);
+    -webkit-animation: changeCol 2s infinite alternate;
+}
+@keyframes changeCol {
+    100%{
+        text-shadow: 0px 0px 60px rgba(21, 0, 255, 0.627);
+    }
+}
+
+img{
+    /*position: relative;*/
+    /*position: absolute;*/
+    /* position: sticky; */
+    /* position: fixed; */
+
+    left: 0px;
+    top: 125px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+body{
+    color: white;
+    background-color: black;
+}
+body h1{
+    /* position: relative; */
+    position: fixed;
+    /* position: sticky; */
+    /* position: absolute; */
+
+    top: 200px;
+    left: 100px;
+}

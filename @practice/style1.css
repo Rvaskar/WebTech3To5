@@ -1,0 +1,45 @@
+#h1{
+    /* stroke: 2px black; */
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+}
+
+#h1::selection{
+    background-color: yellow;
+    color: black;
+}
+div{
+    background-color: black;
+    /* display: flex;
+
+    padding: 0;
+    margin: 0; */
+    text-align: center;
+
+}
+
+#div h1{
+    /* display: absolute; */
+    font-size: 100px;
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 150px;
+    animation: tiger 1s infinite alternate;
+    text-shadow: 0 0 50px rgba(255, 0, 0, 0.445);
+    -webkit-animation: tiger 1s infinite alternate;
+}
+.an{
+    
+    
+
+    width: 20px;
+    background-color: rgb(217, 255, 0);
+    height: 40px;
+}
+@keyframes tiger {
+    100%{
+        text-shadow: 0 0 60px rgba(0, 8, 255, 0.432);
+    }
+}

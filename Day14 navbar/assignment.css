@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: yellow; */
+}
+nav{
+    background-color: aliceblue;
+}
+#cont{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* padding: 10px; */
+    /* gap: 10px; */
+    /* justify-content: space-between; */
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: rgb(255, 0, 0);
+}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: yellow;
+    position: absolute;
+    display: none;
+}
+a:hover{
+    border-bottom: 2px solid rgb(247, 247, 247);
+    background-color: black;
+    color: rgb(0, 136, 255);
+    /* display: block; */
+}
+#drop:hover #menu{
+    display: block;
+}
