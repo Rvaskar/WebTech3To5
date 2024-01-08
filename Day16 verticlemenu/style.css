@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: whitesmoke;
+    width: 10%;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /*vh means view port its set default height as per screen*/
+    /* display: flex;
+    justify-content: center; */
+
+}
+ul{
+
+    list-style-type: none;
+}
+#cont{
+    margin: 0;
+    padding: 0;
+}
+#cont li{
+    
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: red;
+
+}
+#menu{
+
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    position: absolute;
+    display: none;
+    left: 10%;
+    top: 15%;
+}
+#drop:hover #menu{
+    display: block;
+}
+

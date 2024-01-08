@@ -2,9 +2,12 @@ body{
     margin: 0;
     padding: 0;
     /* background-color: yellow; */
+    background: url(/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 nav{
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.268);
 }
 #cont{
     display: flex;
@@ -19,7 +22,7 @@ a{
     text-decoration: none;
     padding: 20px;
     display: block;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
 }
 #menu{
     list-style-type: none;

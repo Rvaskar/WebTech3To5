@@ -5,7 +5,8 @@ body{
     /* background-color: yellow; */
 }
 nav{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 0, 0));
 }
 #cont{
     display: flex;
@@ -20,14 +21,15 @@ a{
     text-decoration: none;
     padding: 20px;
     display: block;
-    color: rgb(255, 0, 0);
+    color: rgb(21, 13, 13);
 }
 
 a:hover{
-    border-bottom: 2px solid rgb(247, 247, 247);
-    background-color: black;
-    color: rgb(0, 136, 255);
-    /* display: block; */
+    /* border-bottom: 2px solid rgb(247, 247, 247); */
+    /* background-color: black; */
+    /* color: rgb(0, 136, 255); */
+    background: linear-gradient(to left,green , yellow );
+    color: white;
 
 }
 li{
@@ -36,7 +38,8 @@ li{
 #menu{
     list-style-type: none;
     padding: 0;
-    background-color: yellow;
+    /* background-color: yellow; */
+    background: linear-gradient(to bottom, white, blue);
     position: absolute;
     display: none;
 }
@@ -47,7 +50,8 @@ li{
 #menu1{
     list-style-type: none;
     padding: 0;
-    background-color: yellow;
+    background: linear-gradient(to bottom, white, blue);
+    /* background-color: yellow; */
     position: absolute;
     display: none;
 }
@@ -57,7 +61,8 @@ li{
 #menu2{
     list-style-type: none;
     padding: 0;
-    background-color: yellow;
+    /* background-color: yellow; */
+    background: linear-gradient(to bottom, white, blue);
     position: absolute;
     display: none;
 }
