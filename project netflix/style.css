@@ -1,0 +1,121 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    width: calc(100% - 253.2px - 96px);
+    height: calc(92px - 48px);
+    margin: 0 126.6px;
+    padding: 24px 48px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    /* justify-content: space-between; */
+}
+#logo{
+    width: 28.345%;
+}
+#logo img{
+   width: 148px;
+   height: 40px;
+}
+#nav-cont-2{
+    width: calc(100% - 28.345%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#nav-cont-2 #lang-nav {
+    width: 13.2%;
+    height: 32px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.455);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#nav-cont-2 #lang-nav select{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    margin: 10px;
+    border: none;
+    font-size: 17px;
+}
+#nav-cont-2 #lang-nav select option{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 0 20px;
+}
+#nav-cont-2 button{
+    width: 76px;
+    height: 32px;
+    font-size: 17px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 1;
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#first-cont{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+
+}
+
+
+#first-cont::before,
+#first-cont::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.712) 0%, rgba(0, 0, 0, 0) 60%);
+}
+
+#first-cont::after {
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(10, 4, 14, 0.762) 0%, rgba(255, 255, 255, 0) 60%);
+}
+section{
+    width: 100%;
+    height: 400px;
+}
+#main{
+    /* background-color: aqua; */
+    height: calc(100vh - 92px);
+    position: relative;
+    z-index: 1;
+}
+#cont1{
+    background-color: blue;
+}
+#cont2{
+    background-color: red;
+}
+footer{
+    height: 10px;
+    background-color: green;
+}

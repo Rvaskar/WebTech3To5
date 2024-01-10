@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url("/img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem ;
+}
+nav > #left > h1{ /*child selector*/
+    color: white;
+    font-size: 1rem;
+}
+/*descendant selector*/
+/* nav h1 span{ 
+    font-weight: 10;
+} */
+nav > #left > h1 > span{ /*descendant selector*/
+    font-weight: 10;
+}
+#cont{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+#cont a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    padding: 0 1rem 2rem 1rem;
+}
+#cont > li > a > button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #cdc1bb;
+    border-radius: 6px;
+    padding: 5px 1rem;
+    height: 2rem;
+    box-shadow:  0 0 0 2px rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 200%;
+    display: none;
+}
+#drop{
+    position: relative;
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.348) ;
+}
+#drop:hover #menu{
+    display: block;
+}
+#menu a:hover{
+    background-color: orange;
+    color: white;
+    
+}
+#alpha{
+    text-align: center;
+    color: white;
+    margin-top: 7rem;
+}
+#alpha>h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+#alpha>p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+#alpha > button{
+    width: 12%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    color: gray;
+    margin-right: 1rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#alpha > #learn{
+    background-color: transparent;
+    border: 2px solid  rgb(201, 191, 191);
+    color: white;
+}
+#info{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    color: grey;
+    margin-top: 12rem;
+    padding-top: 2rem ;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#info>h2{
+    font-size: 2rem;
+}
+#info>p{
+    font-size: 1.2rem;
+    border-top: 2px solid rgb(212,205,205);
+    width: 60%;
+    margin: auto;
+    padding-top: 2rem;
+
+}
+#info >img{
+    width: 100%;
+}

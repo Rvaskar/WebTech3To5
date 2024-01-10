@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#tv-cont{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#enjoy{
+    background-color: black;
+    width: 48%;
+    color: white;
+}
+#enjoy>h2{
+    font-size: 2rem;
+}
+#enjoy>p{
+    font-size: 1.2rem;
+}
+#tv{
+    background-color: black;
+    width: 48%;
+    position: relative;
+}
+#tv>img{
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+#tv>video{
+    position: absolute;
+    left: 95px;
+    top: 114px;
+    width: 73%;
+    z-index: 1;
+}
