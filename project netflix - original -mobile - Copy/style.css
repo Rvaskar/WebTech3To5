@@ -2,22 +2,23 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  /* height: 100vh; */
+  height: 100vh;
   background: url("/img/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg");
   background-repeat: no-repeat;
+  background-size: 100%;
   object-fit: cover;
   border-image: fill 0
     linear-gradient(
       to top,
       rgba(0, 0, 0, 0.97) 0,
-      rgba(0, 0, 0, 0.216) 60%,
+      rgba(0, 0, 0, 0.316) 60%,
       rgba(0, 0, 0, 0.905) 100%
     );
 }
 /*-------------------Nav---------------------------------*/
 nav {
-  width: calc(100% - 253.2px - 96px);
-  height: calc(92px - 48px);
+  width: 77.02%;
+  height: 44px;
   margin: 0 126.6px;
   padding: 24px 48px;
   position: relative;
@@ -32,7 +33,7 @@ nav {
   height: 40px;
 }
 #nav-cont-2 {
-  width: calc(100% - 28.345%);
+  width: 70%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -100,7 +101,6 @@ nav {
 }
 /*-------------------main container---------------------------------*/
 #main {
-  height: calc(100vh - 92px);
   position: relative;
   z-index: 0;
   border-bottom: 8px solid rgb(35 35 35);
@@ -109,6 +109,7 @@ nav {
   align-items: center;
 }
 #main-div1 {
+  margin: 11rem 0;
   width: 59.75%;
   height: 14.93rem;
   display: flex;
@@ -231,7 +232,6 @@ nav {
   justify-content: center;
   align-items: center;
   width: 77%;
-  /* margin: 0px 11.5rem; */
   margin: auto;
 }
 #enjoy {
@@ -269,7 +269,6 @@ nav {
 /*-------------------container 2---------------------------------*/
 #cont2 {
   background-color: black;
-  /* height: calc(640.25px - 144px); */
   padding: 72px 0px;
   border-bottom: 8px solid rgb(35 35 35);
 }
@@ -349,7 +348,6 @@ nav {
 /*-------------------container 3---------------------------------*/
 #cont3 {
   background-color: black;
-  /* height: calc(620.25px - 144px); */
   padding: 72px 0px;
   border-bottom: 8px solid rgb(35 35 35);
 }
@@ -395,7 +393,6 @@ nav {
 /*-------------------container 4---------------------------------*/
 #cont4 {
   background-color: black;
-  /* height: calc(620.25px - 144px); */
   padding: 72px 0px;
   border-bottom: 8px solid rgb(35 35 35);
 }
@@ -411,7 +408,6 @@ nav {
   background-color: black;
   width: 49.5%;
   position: relative;
-  /* height: calc(6.48rem - 1rem); */
 }
 #cont4-mob > img {
   width: 100%;
@@ -423,7 +419,6 @@ nav {
 }
 #cont4-text > h2 {
   font-size: 3rem;
-  /* font-weight: 900; */
   margin: 0;
 }
 #cont4-text > p {
@@ -434,7 +429,6 @@ nav {
 /*-------------------container 5---------------------------------*/
 #cont5 {
   background-color: black;
-  /* min-height: calc(582.25px - 144px); */
   padding: 72px 0px;
   border-bottom: 8px solid rgb(35 35 35);
 }
@@ -764,7 +758,6 @@ nav {
 /*-------------------  footer  ---------------------------------*/
 footer {
   background-color: black;
-  /* height: calc(145.25px + 144px); */
   padding: 72px 0px;
 }
 #footer-main {
@@ -773,7 +766,6 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  /* margin: 0px 11rem; */
   width: 77%;
   margin: auto;
   padding: 0 3rem;
@@ -798,7 +790,7 @@ footer {
   padding-left: 0;
 }
 #f-div2 ul li {
-  width: 17.5rem;
+  width: 23.9%;
   list-style-type: none;
   height: 1.13rem;
   margin-top: 1rem;
@@ -852,10 +844,12 @@ footer {
   margin-top: 1rem;
   font-size: 14px;
 }
+
+/*------------media-------------------*/
 @media (max-width: 600px) {
   nav {
     width: calc(100% - 48px);
-    height: calc(92px - 48px);
+    height: calc(80px - 48px);
     margin: 0;
     padding: 24px;
     position: relative;
@@ -870,24 +864,302 @@ footer {
     width: 88px;
     height: 24px;
   }
+  #nav-cont-2 #lang-nav{
+    width: 25.2%;
+    overflow: hidden;
+  }
+
+  /*-----main----*/
   #main {
-    /* height: calc(100vh); */
-    display: flex;
     align-items: normal;
   }
   #main-div1 {
-    width: 59.75%;
-    height: 14.93rem;
+    margin: 0;
+    width: 88%;
+    /* height: auto; */
     display: block;
-    color: white;
   }
   #main-div-text {
     width: 100%;
   }
   #main-div-text > h1 {
     font-size: 2rem;
-    width: 100%;
-    font-weight: 700;
-    line-height: 1.5;
+    text-align: center;
   }
+  #main-div-text > p {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1.13rem;
+  }
+  #main form {
+    width: 85%;
+    padding: 1.5rem;
+  }
+  #main form h3 {
+    font-size: 1.13rem;
+    text-align: center;
+  }
+  #main form > div {
+    margin-top: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  #main form #input-email {
+    height: 3rem;
+    width: 100%;
+  }
+  #main form button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 14px;
+    margin-left: 0;
+    padding: 2px 0;
+  }
+  #main form button img {
+    margin: 0;
+    padding: 0;
+    height: 1.5rem;
+  }
+
+  /*-------------------container 1---------------------------------*/
+  #cont1 {
+    padding: 3.5rem 0px;
+    /* border-bottom: 8px solid rgb(35 35 35); */
+  }
+  .tv-cont {
+    flex-direction: column;
+    width: 88%;
+  }
+  #enjoy {
+    width: 100%;
+    padding-right: 6px;
+    text-align: center;
+  }
+  #enjoy > h2 {
+    font-size: 2rem;
+  }
+  #enjoy > p {
+    font-size: 1.13rem;
+  }
+  #tv {
+    width: 100%;
+  }
+  /*-------------------container 2---------------------------------*/
+  #cont2 {
+    padding: 3.5rem 0px;
+  }
+  #cont2-img {
+    flex-direction: column-reverse;
+    width: 87.8%;
+  }
+  #cont2-mob {
+    width: 100%;
+    padding-right: 6px;
+    margin-top: 1rem;
+  }
+  #cont2-text {
+    text-align: center;
+    width: 100%;
+  }
+  #cont2-text > h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+  }
+  #cont2-text > p {
+    font-size: 1.13rem;
+  }
+  #cont2-label-div {
+    height: 3.5rem;
+    padding: 4px 10px;
+    width: 70%;
+    top: 69%;
+    left: 11%;
+  }
+  #cont2-label-div > div > #p1 {
+    font-size: 14px;
+  }
+  #cont2-label-div > div > #p2 {
+    font-size: 12px;
+  }
+  #cont2-label-div > img {
+    height: 3rem;
+    width: 2.13rem;
+  }
+  #cont2-label-div > #img2 {
+    width: 2rem;
+    height: 2.2rem;
+  }
+  /*-------------------container 3---------------------------------*/
+  #cont3 {
+    padding: 3.5rem 0px;
+  }
+  .tv-cont3 {
+    width: 87.8%;
+    flex-direction: column;
+  }
+  #enjoy3 {
+    width: 100%;
+    padding-right: 6px;
+    text-align: center;
+  }
+  #enjoy3 > h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  #enjoy3 > p {
+    font-size: 1.1rem;
+    margin: 1rem;
+  }
+  #tv3 {
+    width: 100%;
+  }
+  /*-------------------container 4---------------------------------*/
+  #cont4 {
+    padding: 3.5rem 0px;
+  }
+  #cont4-img {
+    flex-direction: column-reverse;
+    width: 87.8%;
+  }
+  #cont4-mob {
+    width: 100%;
+    padding-right: 6px;
+    margin-top: 1rem;
+  }
+  #cont4-text {
+    text-align: center;
+    width: 100%;
+  }
+  #cont4-text > h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+  }
+  #cont4-text > p {
+    font-size: 1.13rem;
+  }
+  /*-------------------container 5---------------------------------*/
+  #cont5 {
+    padding: 3.5rem 0px;
+  }
+  #cont5-img {
+    width: 87.8%;
+    margin: auto;
+  }
+  #cont5-img > h1 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  #cont5-questions ul > li > h3 {
+    /* width: 100%; */
+    margin-bottom: 2px;
+    margin-top: 10px;
+  }
+  #cont5-questions > ul > li button {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(45 45 45);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem;
+    padding: 1.5rem;
+    font-size: 1.1rem;
+  }
+  #cont5-questions ul  li button #img1{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  #cont5-questions ul  li button #img7{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  #cont5-questions ul  li button #img3{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  #cont5-questions ul  li button #img4{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  #cont5-questions ul  li button #img5{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  #cont5-questions ul  li button #img6{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  /*-----------------------button effect--------------------*/
+  .cont5-text {
+    font-size: 1.1rem;
+  }
+  .show-text {
+    font-size: 1.1rem;
+  } 
+  /*-------------------button effect  done--------------------*/
+
+  /*--------------form-------------*/
+
+  #sub-btn {
+    margin-top: 1.2rem;
+  }
+  #sub-btn form {
+    width: 85%;
+    padding: 1.5rem;
+    padding-bottom: 0;
+  }
+  #sub-btn form h3 {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0;
+  }
+  #sub-btn form > div {
+    margin-top: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  #sub-btn form #input-email {
+    height: 3rem;
+    width: 100%;
+  }
+  #sub-btn form button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 14px;
+    margin-left: 0;
+    padding: 2px 0;
+  }
+  #sub-btn form button img {
+    margin: 0;
+    padding: 0;
+    height: 1.5rem;
+  }
+
+  /*-------------------  footer  ---------------------------------*/
+  footer {
+    padding: 2rem 0;
+  }
+  #footer-main {
+    width: 87.8%;
+    margin: auto;
+    padding: 0 1.5rem;
+  }
+  #f-div2 ul li {
+    width: 46%;
+    list-style-type: none;
+    height: 1.13rem;
+    margin-top: 1rem;
+    margin-left: 12px;
+  }
+  #nav-cont-footer #lang-nav-footer {
+    width: 40%;
+  }
+
 }
