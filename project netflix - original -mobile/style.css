@@ -5,7 +5,7 @@ body {
   height: 100vh;
   background: url("/img/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  /* background-size: 100%; */
   object-fit: cover;
   border-image: fill 0
     linear-gradient(
@@ -111,7 +111,7 @@ nav {
 #main-div1 {
   margin: 11rem 0;
   width: 59.75%;
-  height: 14.93rem;
+  /* height: 14.93rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -846,7 +846,19 @@ footer {
 }
 
 /*------------media-------------------*/
+
+
 @media (max-width: 600px) {
+  body{
+    border-image: fill 0
+    linear-gradient(
+      to top,
+      rgb(0, 0, 0) 0,
+      rgb(0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.425) 80%,
+      rgba(0, 0, 0, 0.873) 100%
+    );
+  }
   nav {
     width: calc(100% - 48px);
     height: calc(80px - 48px);
@@ -872,6 +884,7 @@ footer {
   /*-----main----*/
   #main {
     align-items: normal;
+    /* padding:0 0  5rem 0; */
   }
   #main-div1 {
     margin: 0;
@@ -894,10 +907,12 @@ footer {
   #main form {
     width: 85%;
     padding: 1.5rem;
+    
   }
   #main form h3 {
     font-size: 1.13rem;
     text-align: center;
+    margin: 0;
   }
   #main form > div {
     margin-top: 1rem;
