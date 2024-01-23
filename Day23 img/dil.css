@@ -1,0 +1,82 @@
+/* body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: beats 5s infinite alternate;
+  -webkit-animation: beats 5s infinite alternate;
+}
+.fa-heart {
+  color: red;
+}
+@keyframes beats {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+.fa-volleyball{
+    animation: beats 5s infinite ;
+    transition: 2s;
+    -webkit-animation: beats 5s infinite alternate;
+    position: relative;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+@keyframes beats {
+  0% {
+    top: 0;
+    left: 0;
+    color: rgb(0, 0, 0);
+  }
+  16.5% {
+    top: 50%;
+    left: 16%;
+    color: red;
+}
+33% {
+    top: 0%;
+    left: 32%;
+    color: rgb(0, 0, 0);
+}
+49.5% {
+    top: 50%;
+    left: 48%;
+    color: rgb(0, 30, 255);
+}
+65.5% {
+    top: 0%;
+    left: 64%;
+    color: rgb(0, 0, 0);
+}
+82.5% {
+    top: 50%;
+    left: 80%;
+    color: rgb(17, 255, 0);
+  }
+  100% {
+    top: 0%;
+    left: 97%;
+    color: rgb(0, 0, 0);
+  }
+}

@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* animation: disco 10s infinite alternate;
+  -webkit-animation: disco 10s infinite alternate; */
+  -webkit-animation: img-change 5s infinite alternate;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@keyframes img-change {
+  0% {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+  }
+  25% {
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+  50% {
+    background-image: url("https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=600");
+  }
+  75% {
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=600");
+  }
+  100% {
+    background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&w=600");
+  }
+}
+/* @keyframes disco {
+    0%{
+        background-color: chocolate;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: greenyellow;
+    }
+    100%{
+        background-color: hotpink;
+    }
+    
+}
+h1{
+    animation: h1back 10s infinite;
+    -webkit-animation: h1back 10s infinite;
+    position: relative;
+    transition: 5s;
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -ms-transition: 5s;
+    -o-transition: 5s;
+}
+@keyframes h1back {
+    0%{
+
+        left: 0%;
+        top: 0;
+    }
+    25%{
+ 
+        left: 80%;
+        top: 0;
+    }
+    50%{
+    left: 80%;
+        top: 90%;
+        transform: rotateY(40deg);
+        -webkit-transform: rotateY(40deg);
+        -moz-transform: rotateY(40deg);
+        -ms-transform: rotateY(40deg);
+        -o-transform: rotateY(40deg);
+}
+    75%{
+        
+        left: 0%;
+        top: 90%;
+    }
+    100%{
+        
+        left: 0%;
+        top: 0;
+    }
+    
+}
+div{
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 100vh;
+
+} */
