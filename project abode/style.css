@@ -10,7 +10,7 @@ nav{
     background-color: white;
     color: #2c2c2c;
     padding: 0 3rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 13px;
     position: sticky;
     top: 0;
@@ -20,6 +20,7 @@ nav{
     display: flex;
     align-items: center;
     color: red;
+    font-weight: bold;
     font-size: 18px;
     padding: 0 8px 0 0;
 }

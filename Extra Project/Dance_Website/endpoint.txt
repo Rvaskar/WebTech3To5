@@ -1,0 +1,24 @@
+1) for user 
+
+name: 
+surname:
+email: 
+password:
+mob:
+age:
+gender:
+add:
+  
+
+footer) term and condition
+
+//for the gym)
+username: / email:
+password:
+
+
+
+
+
+
+
